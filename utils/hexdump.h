@@ -1,3 +1,5 @@
+/* THIS FILE WAS MADE BY RIP.MEEP D: */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
