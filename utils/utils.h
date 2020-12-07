@@ -22,8 +22,8 @@
 #include <assert.h>
 #include <fcntl.h>
 #include <string.h>
-#include <msg.h>
 
+#include "./msg.h"
 #include "./hexdump.h"
 
 char *read_section64(int fd, Elf64_Shdr sh) {
