@@ -33,8 +33,9 @@ int main(int argc, char **argv) {
         printf(WARN "Usage: %s <ELF file>\n", argv[0]);
         exit(0);
     } 
-
-    int debug = 0;
+    
+    // Change this to 0 if you want to disable debug messages
+    int debug = 1;
     char *file = argv[1];
     int opt; 
 
